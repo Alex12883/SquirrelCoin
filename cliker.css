@@ -19,6 +19,7 @@ body {
     transition: transform 0.2s;
     position: center;
     margin: 0 auto;
+    display: block;
 
 }
 
@@ -32,7 +33,7 @@ body {
     padding: 10px 20px; /* Увеличьте размер текста, увеличив внутренний отступ */
     border-radius: 5px;
     font-size: 18px; /* Задайте свой размер шрифта */
-    font-family: 'Comic Sans MS', cursive;  /*Замените 'Your Font' на имя вашего шрифта */
+    font-family: 'Marker Felt', fantasy;  /*Замените 'Your Font' на имя вашего шрифта */
 }
 
 
