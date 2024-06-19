@@ -18,6 +18,8 @@ body {
     cursor: pointer;
     transition: transform 0.2s;
     position: center;
+    margin: 0 auto;
+
 }
 
 #vote-count {
