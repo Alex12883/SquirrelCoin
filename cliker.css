@@ -5,9 +5,12 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+    overflow: hidden;
 }
 
 .container {
+    max-width: 100%; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
     position: relative;
 }
 
