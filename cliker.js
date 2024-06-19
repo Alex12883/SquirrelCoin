@@ -1,9 +1,9 @@
 const voteImage = document.getElementById('vote-image');
 const voteCount = document.getElementById('vote-count');
-let points = 0;
-let add_points_tap = 2;
+let sqPoints = 0; // Используем переменную sqPoints для подсчета SQ.
+
 voteImage.addEventListener('click', () => {
-    points = points + add_points_tap;
-    voteCount.textContent = `${points} SQ${points === 1 ? '' : 'а'}`;
-    // Добавьте здесь логику сохранения баллов на сервере (например, через AJAX).
+    sqPoints++;
+    voteCount.textContent = `${sqPoints} SQ`;
+    // Добавьте здесь логику сохранения SQ на сервере (например, через AJAX).
 });
