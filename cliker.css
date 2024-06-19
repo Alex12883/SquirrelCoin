@@ -17,6 +17,7 @@ body {
 #vote-image {
     cursor: pointer;
     transition: transform 0.2s;
+    position: center;
 }
 
 #vote-count {
