@@ -20,6 +20,7 @@ body {
     position: center;
     margin: 0 auto !important;
     display: block !important;
+    transform: translateX(0) !important;
 
 }
 
