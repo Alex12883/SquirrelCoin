@@ -25,8 +25,12 @@ body {
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #333;
+    background-color: #F0BD6F;
     color: #fff;
-    padding: 5px 10px;
+    padding: 10px 20px; /* Увеличьте размер текста, увеличив внутренний отступ */
     border-radius: 5px;
+    font-size: 18px; /* Задайте свой размер шрифта */
+    font-family: 'Comic Sans MS', cursive;  /*Замените 'Your Font' на имя вашего шрифта */
 }
+
+
