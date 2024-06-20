@@ -2,16 +2,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 55vh;
     margin: 0;
     background-color: #f0f0f0;
     overflow: hidden;
 }
 
+/*       #######       */
+
 .container {
-    max-width: 100%; /* Максимальная ширина контейнера */
-    margin: 0 auto; /* Центрирование контейнера */
+    max-width: 100%;  
+    margin: 0 auto; 
     position: relative;
+
 }
 
 #vote-image {
@@ -21,12 +24,20 @@ body {
     margin: 0 auto !important;
     display: block !important;
     transform: translateX(0) !important;
+}
+
+#vote-image:active {
+    height: 220px;
+    width: 220px;
 
 }
 
+
+
+
 #vote-count {
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    top: 25px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #F0BD6F;
@@ -36,5 +47,41 @@ body {
     font-size: 18px; /* Задайте свой размер шрифта */
     font-family: 'Marker Felt', fantasy;  /*Замените 'Your Font' на имя вашего шрифта */
 }
+
+/*       #######       */
+
+.upEarn{
+    position: absolute;
+    top: 50%;
+    font-family: 'Marker Felt', fantasy;
+}
+
+#vote-earn{
+    font-size: 16px;
+}
+
+#bt-vote-earn{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Marker Felt', fantasy;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #C6C6C6;
+
+
+}
+
+#bt-vote-earn:hover{
+    background-color: #DCDCDC;
+    color:1F1FE9;
+}
+
+
+
+
+
+
 
 
