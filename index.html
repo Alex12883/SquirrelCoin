@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cliker.css">
+    <link rel="stylesheet" href="cliker/cliker.css">
     <title>SquirrelCoin</title>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <style>
@@ -29,9 +29,11 @@
     <div class="container" >
         <div id="vote-count">0 SQ</div>
         <br><br><br>
-        <img src="squirrel.png" alt="Image" id="vote-image" class="btn_sq" height="250px" width="250px">
+        <img src="cliker/squirrel.png" alt="Image" id="vote-image" class="btn_sq" height="250px" width="250px">
     </div>
-    
+
+    <!-- /*       #######       */ -->
+
     <br> <br> 
     <div class="upEarn">
         <p id="vote-earn">Earn for tap: 1 SQ</p>
@@ -39,8 +41,18 @@
 
     </div>
 
+    <!-- /*       #######       */ -->
+    <div class="border">
+        <button class="bt_house"><img src="cliker/house.png" alt="House image" height="50" width="50"></button>
 
-    <script src="cliker.js"></script>
+        <button class="bt_earn"><a href="tasks/tasks.html"><img src="cliker/earn.png" alt="Earn image" height="50" width="50"></a></button>        
+    </div>
+
+
+
+    <!-- /*       #######       */ -->
+
+    <script src="cliker/cliker.js"></script>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
         let tg = window.Telegram.WebApp;
