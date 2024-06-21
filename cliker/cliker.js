@@ -6,6 +6,7 @@ const voteEarnBt = document.getElementById('bt-vote-earn');
 let sqPoints = 0; // Используем переменную sqPoints для подсчета SQ.
 let sqPointsForTap = 1;
 let priceEarnUp = 100;
+
 voteImage.addEventListener('click', () => {
     sqPoints+=sqPointsForTap;
     voteCount.textContent = `${sqPoints} SQ`;
